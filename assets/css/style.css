@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 1.7rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* header area css  */
+
+.header_area {
+    background: gray;
+    color: #ffffff;
+    padding: 2rem 0;
+}
+
+.logo a {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.menu ul {
+    justify-content: right;
+}
+
+.menu ul li a {
+    color: #ffeaea;
+    display: inline-block;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    background: #686868;
+    margin: 0 .4rem;
+    border-radius: 6px;
+    transition: .5s;
+}
+
+.menu ul li a:hover {
+    color: #ffffff;
+    background: #000;
+}
+
+
+/* home area css  */
+
+.tpi_img {
+    width: 100%;
+    height: 531px;
+}
+
+.tpi_img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* contace area css  */
+
+.contact_area {
+    background: cadetblue;
+    padding: 3rem 0;
+}
+
+.contact_from {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.contact_from h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #595858;
+}
+
+.from_group {
+    margin: 2rem 0;
+}
+
+.from_group label {
+    font-size: 1.8rem;
+    color: #534f4f;
+}
+
+.from_group textarea,
+.from_group input {
+    font-size: 1.5rem;
+    padding: .7rem;
+}
+
+.from_group.btns {
+    text-align: center;
+}
+
+.from_group.btns input {
+    text-transform: uppercase;
+    padding: .7rem 2.5rem;
+    font-size: 2rem;
+}
+
+
+/* footer area css  */
+
+.footer_area {
+    background: rgb(71, 54, 54);
+    padding: 1rem 0;
+    color: #fff;
+    text-align: center;
+}
